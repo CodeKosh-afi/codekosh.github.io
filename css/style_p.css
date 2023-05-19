@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --primary-color: #432E30;
+    --primary-color-light: #222222;
+    --accent-color: #FE6A6B;
+    --accent-color-light: #FFE4E4;
+    --accent-color-dark: #B94B4C;
+    --white-color: #FAFBFC;
+    --light-gray-color: #C6CBD1;
+    --medium-gray-color: #959DA5;
+    --dark-gray-color: #444D56;
+    --bg-color: #F8F8FA;
+    --code-bg-color: #F0E8E8;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.ftr-jsg {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 35px;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    top: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #14171a;
+    box-shadow: 4px 8px 24px 0 rgb(20 23 26 / 16%);
+    border: none;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+.tab__container .code {
+    white-space: normal;
+    padding: 1rem 1.5rem;
+}
+
+.code {
+    border-radius: 10px;
+    font-family: Space Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    background: var(--bg-color);
+    border: 1px solid var(--code-bg-color);
+    color: var(--primary-color-light);
+}
+
+.code--block {
+    white-space: pre-line;
+    padding: 0 1.5rem;
+}
+
+.code--inline {
+    padding: 3px 6px;
+    font-size: 60%;
+    color: #000;
+}
